@@ -1,12 +1,12 @@
-const CACHE_NAME = "methra-v1";
+const CACHE_NAME = "methra-v2";
 const ASSETS = [
   "./",
   "index.html",
   "style.css",
   "app.js",
   "manifest.json",
-  "icon/219.jpeg",
-  "icon/512.jpeg",
+  "219.jpeg",
+  "512.jpeg",
 ];
 
 self.addEventListener("install", (event) => {
